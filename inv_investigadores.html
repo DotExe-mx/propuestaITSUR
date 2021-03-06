@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style/inv_investigadores_style.css">
+</head>
+<body>
+    <header class="my-1">
+    </header>
+
+    <!---Menu principal-->
+    <nav class="navbar navbar-expand-md navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img id="imgLogoITSUR" src="imgs/logo.png" alt="Logo ITSUR"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Admisiónes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Oferta Educativa
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item"><strong>Ingenierias</strong></a></li>
+                <li><a class="dropdown-item" href="#">Ing. S. Automotrices</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Ambiental</a></li>
+                <li><a class="dropdown-item" href="ISC.html">Ing. S. Computacionales</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Industrial</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Electronica</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Gestion Empresarial</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Informatica</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item"><strong>Licenciaturas</strong></a></li>
+                <li><a class="dropdown-item" href="#">Lic. Gastronomia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Estudiantes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="tutorias.html">Tutorias</a></li>
+                <li><a class="dropdown-item" href="#">Titulacion</a></li>
+                <li><a class="dropdown-item" href="#">Biblioteca</a></li>
+                <li><a class="dropdown-item" href="#">C. de Computo</a></li>
+                <li><a class="dropdown-item" href="#">Seguro Escolar</a></li>
+                <li><a class="dropdown-item" href="#">Apoyos Estudiantiles</a></li>
+                <li><a class="dropdown-item" href="#">SICEnet</a></li>
+                <li><a class="dropdown-item" href="#">Tramites y Servicios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Vinculacion
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Becas</a></li>
+                <li><a class="dropdown-item" href="#">Centro de Idiomas</a></li>
+                <li><a class="dropdown-item" href="#">Educacion Continua</a></li>
+                <li><a class="dropdown-item" href="#">Egresados</a></li>
+                <li><a class="dropdown-item" href="#">Extracurriulares</a></li>
+                <li><a class="dropdown-item" href="#">Residencias</a></li>
+                <li><a class="dropdown-item" href="#">Servicio Social</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Investigación
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Presentacion</a></li>
+                <li><a class="dropdown-item" href="inv_investigadores.html">Investigadores</a></li>
+                <li><a class="dropdown-item" href="#">Proyectos de Investigacion</a></li>
+                <li><a class="dropdown-item" href="#">Perfiles Deseables</a></li>
+                <li><a class="dropdown-item" href="#">Cuerpos Academicos</a></li>
+                <li><a class="dropdown-item" href="#">Eventos Academicos</a></li>
+                <li><a class="dropdown-item" href="#">Convocatorias</a></li>
+                <li><a class="dropdown-item" href="#">Doc. de Interes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Informacion Financiera</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Transparencia
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Sistema Inst. de Archivo</a></li>
+                <li><a class="dropdown-item" href="#">UTAPE</a></li>
+                <li><a class="dropdown-item" href="#">PRODEP</a></li>
+                <li><a class="dropdown-item" href="#">Programa de Adquisiciones</a></li>
+                <li><a class="dropdown-item" href="#">Programa de Inventarios</a></li>
+                <li><a class="dropdown-item" href="#">PROEXOE</a></li>
+                <li><a class="dropdown-item" href="#">Resolutivo RCT1487_2017</a></li>
+                <li><a class="dropdown-item" href="#">Resolutivo RCT0067_2018</a></li>
+                <li><a class="dropdown-item" href="#">Resolutivo RCT1300_2018</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Acerca del ITSUR
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Conocenos</a></li>
+                    <ul class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Filosofia.html">  Filosofía</a></li>
+                      <li><a class="dropdown-item" href="antecedentes.html">  Antecedentes</a></li>
+                    </ul>
+                <li><a class="dropdown-item" href="#">Directorio</a></li>
+                <li><a class="dropdown-item" href="#">Contacto</a></li>
+              </ul>
+            </li>
+        </div>
+      </div>
+  </nav>
+    <!--Fin de menu principal-->
+<!--Cotenido-->
+<div class="container-md my-3">
+  <section>
+      <h2 class="text-center"><strong>INVESTIGADORES</strong></h2>
+      <div class="row p-2" >
+          <div class="col-md-6">
+              <h4 class="text-center">Ingeniería Ambiental</h4>
+              <table class="table table-striped">
+                <thead class="table-dark">
+                    <th  colspan="2" >Investigadores vigentes</th>
+                    <th scope="col">Email</th>
+                </thead>
+                  <tbody>
+                      <tr>
+                          <td>Dr.</td>
+                          <td>Edgar G. Blanco Díaz</td>
+                          <td><a href="#">eg.blanco@itsur.edu.mx</a></td>
+                      </tr>
+                      <tr>
+                          <td>Dr.</td>
+                          <td>Franco Guerrero Orozco</td>
+                          <td><a href="#">f.guerrero@itsur.edu.mx</a></td>
+                      </tr>
+                      <tr>
+                          <td>Lic.</td>
+                          <td>Fernando Daniel Bedolla Flores</td>
+                          <td><a href="#">fd.bedolla@itsur.edu.mx</a></td>
+                      </tr>
+                      <tr>
+                          <td>Lic.</td>
+                          <td>Cielo Esmeralda Rodríguez</td>
+                          <td><a href="#">ce.rodriguez@itsur.edu.mx</a></td>
+                      </tr>
+                      <tr>
+                          <td>Lic.</td>
+                          <td>Alfredo Torres Martínez</td>
+                          <td><a href="#">a.torres@itsur.edu.mx</a></td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          <div class="col-md-6">
+              <h4 class="text-center">Ingeniería Electrónica</h4>
+              <table class="table table-striped">
+                  <thead class="table-dark">
+                      <th  colspan="2" >Investigadores vigentes</th>
+                      <th scope="col">Email</th>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Dr.</td>
+                          <td>	
+                            Carlos Alberto Fuentes Hernández</td>
+                          <td><a href="#">	
+                            ca.fuentes@itsur.edu.mx</a></td>
+                      </tr>
+                      <tr>
+                          <td>Mtra.</td>
+                          <td>Susana Violeta Martínez Hernández</td>
+                          <td><a href="#">sv.martinez@itsur.edu.mx</a></td>
+                      </tr>
+                      <tr>
+                          <td>Mtro.</td>
+                          <td>Julio Ortega Alejos</td>
+                          <td><a href="#">j.ortega@itsur.edu.mx</a></td>
+                      </tr>
+                      <tr>
+                          <td>Mtro.</td>
+                          <td>Leonel Estrada Rojo</td>
+                          <td><a href="#">l.estrada@itsur.edu.mx</a></td>
+                      </tr>
+                      <tr>
+                          <td>Mtro.</td>
+                          <td>Netzahualcoyotl Martínez Martínez</td>
+                          <td><a href="#">n.martinez@itsur.edu.mx</a></td>
+                      </tr>
+                  </tbody>
+                </table>
+          </div>
+      </div>
+
+      <div class="row p-2" >
+        <div class="col-md-6">
+            <h4 class="text-center">Ingeniería Industrial</h4>
+            <table class="table table-striped">
+              <thead class="table-dark">
+                  <th  colspan="2" >Investigadores vigentes</th>
+                  <th scope="col">Email</th>
+              </thead>
+                <tbody>
+                    <tr>
+                        <td>Mtra.</td>
+                        <td>Araceli Moreno González</td>
+                        <td><a href="#">a.moreno@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtra.</td>
+                        <td>Cristina Orozco Trujillo</td>
+                        <td><a href="#">c.orozco@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>Gabriel Magaña Guzmán</td>
+                        <td><a href="#">industrial@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>Jesús Amparo Morales Guzmán</td>
+                        <td><a href="#">ja.morales@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>Jorge Ávalos Carrillo</td>
+                        <td><a href="#">j.avalos@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                      <td>Mtro.</td>
+                      <td>Jorge Ramón Hernández Bernal</td>
+                      <td><a href="#">jr.hdz@itsur.edu.mx</a></td>
+                  </tr>
+                  <tr>
+                      <td>Mtro.</td>
+                      <td>Juan Hernández Paredes</td>
+                      <td><a href="#">j.hernandez@itsur.edu.mx</a></td>
+                  </tr>
+                  <tr>
+                      <td>Mtro.</td>
+                      <td>Manuel Luna López</td>
+                      <td><a href="#">m.luna@itsur.edu.mx</a></td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h4 class="text-center">Ingeniería en Gestión Empresarial</h4>
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <th  colspan="2" >Investigadores vigentes</th>
+                    <th scope="col">Email</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mtra.</td>
+                        <td>	
+                          Laura Concepción Espinoza Portillo</td>
+                        <td><a href="#">	
+                          lc.esponoza@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtra.</td>
+                        <td>María López Ruiz</td>
+                        <td><a href="#">m.lopez@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtra.</td>
+                        <td>
+                          Paulina Luna Perez</td>
+                        <td><a href="#">p.luna@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>Enrique Revuelta López</td>
+                        <td><a href="#">e.revuelta@itsur.edu.mx</a></td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+
+      <div class="row p-2" >
+        <div class="col-md-6">
+            <h4 class="text-center">Ingeniería en Sistemas Automotrices</h4>
+            <table class="table table-striped">
+              <thead class="table-dark">
+                  <th  colspan="2" >Investigadores vigentes</th>
+                  <th scope="col">Email</th>
+              </thead>
+                <tbody>
+                    <tr>
+                        <td>Dr.</td>
+                        <td>José Eli Eduardo González Durán</td>
+                        <td><a href="#">electronica@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Dr.</td>
+                        <td>Mariano Braulio Sánchez</td>
+                        <td><a href="#">m.braulio@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>David Morales Orozco</td>
+                        <td><a href="#">d.morales@itsur.edu.mx</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+              <h4 class="text-center">Gastronomía</h4>
+              <table class="table table-striped">
+                <thead class="table-dark">
+                    <th  colspan="2" >Investigadores vigentes</th>
+                    <th scope="col">Email</th>
+                </thead>
+                  <tbody>
+                      <tr>
+                          <td>Mtra.</td>
+                          <td>Patricia Alcantar Ortiz</td>
+                          <td><a href="#">p.alcantar@itsur.edu.mx</a></td>
+                      </tr>
+                  </tbody>
+              </table>
+        </div>
+        <div class="col-md-6">
+            <h4 class="text-center">Ingeniería en Sistemas Computacionales</h4>
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <th  colspan="2" >Investigadores vigentes</th>
+                    <th scope="col">Email</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mtra.</td>
+                        <td>Patricia Vega Flores</td>
+                        <td><a href="#">p.vega@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtra.</td>
+                        <td>María Trinidad Pimentel Villegas</td>
+                        <td><a href="#">investigacion@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>Efrén Vega Chávez</td>
+                        <td><a href="#">fj.martinez@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                      <td>Mtro.</td>
+                      <td>Fernando José Martínez López</td>
+                      <td><a href="#">fj.martinez@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>Gustavo Iván Vega Olvera</td>
+                        <td><a href="#">gi.vega@itsur.edu.mxx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>Jeziel Vázquez Nava</td>
+                        <td><a href="#">j.vazquez@itsur.edu.mx</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mtro.</td>
+                        <td>Luis Germán Gutiérrez Torres</td>
+                        <td><a href="#">licgerman@itsur.edu.mx</a></td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+  </section>
+</div>
+<!--Fin del contenido-->
+
+    <!--Footer-->
+      <footer></footer>
+    <!--Fin del footer-->
+
+    <!--Inicio del bloque de scripts-->
+    <script src="scripts/jquery-3.5.1.js"></script>
+    <script src="scripts/ISC_script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+      crossorigin="anonymous"></script>
+    <!--Fin del bloque de scripts-->
+</body>
+</html>

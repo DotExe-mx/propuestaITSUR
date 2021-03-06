@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filosofia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+        crossorigin="anonymous">
+    <style>
+        body > nav{
+            background-color: #0d4598!important;;
+        }
+
+        #imgLogoITSUR{
+            height: 40px;
+        }
+
+        header {
+            height: 120px;
+            background-image: url(imgs/encabezado.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        #colRomanos>ol>li{
+          padding:  5px 0;
+        }
+
+        .dropdown-item:hover{
+          background-color: rgb(170, 162, 162);
+        }
+        footer{
+            height: 120px;
+            background-image: url(imgs/footer.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .navbar .navbar-brand {
+            margin-right: 5.5rem;
+             margin-left: 1rem;}
+    </style>
+</head>
+<body>
+    <header class="my-1">
+    </header>
+    <!---Menu principal-->
+    <nav class="navbar navbar-expand-md navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img id="imgLogoITSUR" src="imgs/logo.png" alt="Logo ITSUR"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Admisiónes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Oferta Educativa
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item"><strong>Ingenierias</strong></a></li>
+                <li><a class="dropdown-item" href="#">Ing. S. Automotrices</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Ambiental</a></li>
+                <li><a class="dropdown-item" href="ISC.html">Ing. S. Computacionales</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Industrial</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Electronica</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Gestion Empresarial</a></li>
+                <li><a class="dropdown-item" href="#">Ing. Informatica</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item"><strong>Licenciaturas</strong></a></li>
+                <li><a class="dropdown-item" href="#">Lic. Gastronomia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Estudiantes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="tutorias.html">Tutorias</a></li>
+                <li><a class="dropdown-item" href="#">Titulacion</a></li>
+                <li><a class="dropdown-item" href="#">Biblioteca</a></li>
+                <li><a class="dropdown-item" href="#">C. de Computo</a></li>
+                <li><a class="dropdown-item" href="#">Seguro Escolar</a></li>
+                <li><a class="dropdown-item" href="#">Apoyos Estudiantiles</a></li>
+                <li><a class="dropdown-item" href="#">SICEnet</a></li>
+                <li><a class="dropdown-item" href="#">Tramites y Servicios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Vinculacion
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Becas</a></li>
+                <li><a class="dropdown-item" href="#">Centro de Idiomas</a></li>
+                <li><a class="dropdown-item" href="#">Educacion Continua</a></li>
+                <li><a class="dropdown-item" href="#">Egresados</a></li>
+                <li><a class="dropdown-item" href="#">Extracurriulares</a></li>
+                <li><a class="dropdown-item" href="#">Residencias</a></li>
+                <li><a class="dropdown-item" href="#">Servicio Social</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Investigación
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Presentacion</a></li>
+                <li><a class="dropdown-item" href="inv_investigadores.html">Investigadores</a></li>
+                <li><a class="dropdown-item" href="#">Proyectos de Investigacion</a></li>
+                <li><a class="dropdown-item" href="#">Perfiles Deseables</a></li>
+                <li><a class="dropdown-item" href="#">Cuerpos Academicos</a></li>
+                <li><a class="dropdown-item" href="#">Eventos Academicos</a></li>
+                <li><a class="dropdown-item" href="#">Convocatorias</a></li>
+                <li><a class="dropdown-item" href="#">Doc. de Interes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Informacion Financiera</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Transparencia
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Sistema Inst. de Archivo</a></li>
+                <li><a class="dropdown-item" href="#">UTAPE</a></li>
+                <li><a class="dropdown-item" href="#">PRODEP</a></li>
+                <li><a class="dropdown-item" href="#">Programa de Adquisiciones</a></li>
+                <li><a class="dropdown-item" href="#">Programa de Inventarios</a></li>
+                <li><a class="dropdown-item" href="#">PROEXOE</a></li>
+                <li><a class="dropdown-item" href="#">Resolutivo RCT1487_2017</a></li>
+                <li><a class="dropdown-item" href="#">Resolutivo RCT0067_2018</a></li>
+                <li><a class="dropdown-item" href="#">Resolutivo RCT1300_2018</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Acerca del ITSUR
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Conocenos</a></li>
+                    <ul class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Filosofia.html">  Filosofía</a></li>
+                      <li><a class="dropdown-item" href="antecedentes.html">  Antecedentes</a></li>
+                    </ul>
+                <li><a class="dropdown-item" href="#">Directorio</a></li>
+                <li><a class="dropdown-item" href="#">Contacto</a></li>
+              </ul>
+            </li>
+        </div>
+      </div>
+  </nav>
+
+      <div class="container-md my-3">
+        <section>
+          <h2 class="text-center"><strong>FILOSOFÍA INSTITUCIONAL</strong></h2>
+              <div class="row my-5">
+                <section class="col-md-6">
+                  <h4 class="text-center"><strong>Misión</strong></h4>
+                  <p>
+                    Contribuir a la formación integral de personas y egresar profesionistas competentes y 
+                    éticos para crear, emprender e innovar a través del proceso educativo de calidad, comprometidos 
+                    con el medio ambiente y desarrollo sustentable de la región.
+                  </p>
+                </section>
+                <section class="col-md-6">
+                  <h4 class="text-center"><strong>Visión</strong></h4>
+                  <p>
+                    Para el 2024, ser una de las instituciones tecnológicas de nivel superior con mayor 
+                    prestigio a nivel nacional, por la formación integral de sus estudiantes y el compromiso 
+                    de sus egresados con el desarrollo sustentable; así como por la innovación que aporta con 
+                    los programas educativos acreditados y de posgrado.
+                  </p>
+                </section>
+              </div>
+              <div class="row my-5">
+                  <h4><strong>Valores</strong></h4>
+                  <section class="row my-2">
+                    <div class="col-md-4">
+                      <ul>
+                        <li>Compromiso</li>
+                        <li>Responsabilidad</li>
+                        <li>Disciplina</li>
+                        <li>Igualdad y no discriminación</li>
+                        <li>Respeto</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                      <ul>
+                        <li>Innovación</li>
+                        <li>Equidad de género</li>
+                        <li>Colaboración</li>
+                        <li>Respeto a los derechos humanos</li>
+                        <li>Inclusión</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                      <ul>
+                        <li>Humildad</li>
+                        <li>Entorno cultural y ecológico</li>
+                        <li>Interés público</li>
+                        <li>Benedicencia</li>
+                      </ul>
+                    </div>
+                  </section>
+              </div>
+              <div class="row">
+                <h4 class="m-3"><strong>Objeto y facultades</strong></h4>
+                <h5 class="m-3">El Instituto Tecnológico Superior del Sur de Guanajuato tendrá por objeto:</h5>
+                <div id="colRomanos" class="col-md-6">
+                  <ol type="I">
+                    <li>Contribuir a través del proceso educativo, a mejorar las condiciones de vida de los guanajuatenses;</li>
+                    <li>Ampliar las posibilidades de la Educación Superior Tecnológica a todos los habitantes del Estado;</li>
+                    <li>Realizar la investigación científica y tecnológica, con vista al avance del conocimiento, al desarrollo 
+                      de la enseñanza tecnológica y al mejor aprovechamiento social de los recursos naturales y materiales;</li>
+                    <li>Formar profesionales e investigadores en los diversos campos de la ciencia y la tecnología en las áreas 
+                      industrial y de servicios, de acuerdo con los requerimientos del desarrollo económico, político y social del Estado y del país;</li>
+                  </ol>
+                </div>
+                <div id="colRomanos" class="col-md-6">
+                  <ol type="I" start="5">
+                    <li>Coadyuvar a la preparación técnica de los trabajadores para su mejoramiento económico y social;</li>
+                    <li>
+                      Promover y difundir los valores sociales y culturales de la Nación, a fin de crear entre sus educandos 
+                      la conciencia nacionalista, y actitudes a favor de la paz y la solidaridad social;
+                    </li>
+                    <li>Promover en sus alumnos actitudes solidarias y democráticas que afirmen nuestra independencia económica;</li>
+                    <li>
+                      Participar en los programas que se formulen para coordinar las actividades de investigación, de acuerdo con 
+                      la planeación y desarrollo de las políticas nacional y estatal de ciencia y tecnología.
+                    </li>
+                  </ol>
+                </div>
+
+                </div>
+            </section>
+      </div>
+      <!--Footer-->
+      <footer></footer>
+      <!--Fin del footer-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+      crossorigin="anonymous"></script>
+</body>
+</html>

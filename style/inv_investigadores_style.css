@@ -1,0 +1,37 @@
+        body > nav{
+            background-color: #0d4598!important;;
+        }
+
+        #imgLogoITSUR{
+            height: 40px;
+        }
+
+        header {
+            height: 120px;
+            background-image: url(../imgs/encabezado.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        #colRomanos>ol>li{
+          padding:  5px 0;
+        }
+
+        .dropdown-item:hover{
+          background-color: rgb(170, 162, 162);
+        }
+
+        footer{
+            height: 120px;
+            background-image: url(../imgs/footer.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .bg-secundary{
+            background-color: #1D9939!important;
+        }
+        .navbar .navbar-brand {
+            margin-right: 5.5rem;
+             margin-left: 1rem;}
