@@ -8,10 +8,13 @@
 
         header {
             height: 120px;
+            background-color: white;
+            /*
             background-image: url(../imgs/encabezado.png);
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+            */
         }
         #colRomanos>ol>li{
           padding:  5px 0;
@@ -35,3 +38,6 @@
         .navbar .navbar-brand {
             margin-right: 5.5rem;
              margin-left: 1rem;}
+    section{
+        background-color: white;
+    }
