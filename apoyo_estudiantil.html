@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSUR - Instituto Tecnologico Superior del Sur de Guanajuato.</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+        crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style_master.css">
+    <link rel="stylesheet" href="style/style_Filosofia.css">
+</head>
+<body class="Fondo-patron">
+  <header class="my-1">
+  </header>
+  <!---Menu principal-->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img id="imgLogoITSUR" src="imgs/logo propuesta.png" alt="Logo ITSUR"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Admisiónes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Oferta Educativa
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item"><strong>Ingenierias</strong></a></li>
+              <li><a class="dropdown-item" href="#">Ing. S. Automotrices</a></li>
+              <li><a class="dropdown-item" href="#">Ing. Ambiental</a></li>
+              <li><a class="dropdown-item" href="ISC.html">Ing. S. Computacionales</a></li>
+              <li><a class="dropdown-item" href="#">Ing. Industrial</a></li>
+              <li><a class="dropdown-item" href="#">Ing. Electronica</a></li>
+              <li><a class="dropdown-item" href="#">Ing. Gestion Empresarial</a></li>
+              <li><a class="dropdown-item" href="#">Ing. Informatica</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item"><strong>Licenciaturas</strong></a></li>
+              <li><a class="dropdown-item" href="#">Lic. Gastronomia</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Estudiantes
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="tutorias.html">Tutorias</a></li>
+              <li><a class="dropdown-item" href="#">Titulacion</a></li>
+              <li><a class="dropdown-item" href="#">Biblioteca</a></li>
+              <li><a class="dropdown-item" href="#">C. de Computo</a></li>
+              <li><a class="dropdown-item" href="#">Seguro Escolar</a></li>
+              <li><a class="dropdown-item" href="apoyo_estudiantil.html">Apoyos Estudiantiles</a></li>
+              <li><a class="dropdown-item" href="#">SICEnet</a></li>
+              <li><a class="dropdown-item" href="#">Tramites y Servicios</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Vinculacion
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Becas</a></li>
+              <li><a class="dropdown-item" href="#">Centro de Idiomas</a></li>
+              <li><a class="dropdown-item" href="#">Educacion Continua</a></li>
+              <li><a class="dropdown-item" href="#">Egresados</a></li>
+              <li><a class="dropdown-item" href="#">Extracurriulares</a></li>
+              <li><a class="dropdown-item" href="#">Residencias</a></li>
+              <li><a class="dropdown-item" href="#">Servicio Social</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Investigación
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Presentacion</a></li>
+              <li><a class="dropdown-item" href="inv_investigadores.html">Investigadores</a></li>
+              <li><a class="dropdown-item" href="#">Proyectos de Investigacion</a></li>
+              <li><a class="dropdown-item" href="#">Perfiles Deseables</a></li>
+              <li><a class="dropdown-item" href="#">Cuerpos Academicos</a></li>
+              <li><a class="dropdown-item" href="#">Eventos Academicos</a></li>
+              <li><a class="dropdown-item" href="#">Convocatorias</a></li>
+              <li><a class="dropdown-item" href="#">Doc. de Interes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Informacion Financiera</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Transparencia
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Sistema Inst. de Archivo</a></li>
+              <li><a class="dropdown-item" href="#">UTAPE</a></li>
+              <li><a class="dropdown-item" href="#">PRODEP</a></li>
+              <li><a class="dropdown-item" href="#">Programa de Adquisiciones</a></li>
+              <li><a class="dropdown-item" href="#">Programa de Inventarios</a></li>
+              <li><a class="dropdown-item" href="#">PROEXOE</a></li>
+              <li><a class="dropdown-item" href="#">Resolutivo RCT1487_2017</a></li>
+              <li><a class="dropdown-item" href="#">Resolutivo RCT0067_2018</a></li>
+              <li><a class="dropdown-item" href="#">Resolutivo RCT1300_2018</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Acerca del ITSUR
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Conocenos</a></li>
+                  <ul class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="Filosofia.html">  Filosofía</a></li>
+                    <li><a class="dropdown-item" href="antecedentes.html">  Antecedentes</a></li>
+                  </ul>
+              <li><a class="dropdown-item" href="#">Directorio</a></li>
+              <li><a class="dropdown-item" href="#">Contacto</a></li>
+            </ul>
+          </li>
+      </div>
+    </div>
+</nav>
+  <!--Fin de menu principal-->
+  <!--Contenido - Formulario-->
+  <div class="container-fluid">
+    <h1 class="text-center my-5">Formulario apoyo estudiantil</h1>
+    <form class="row">
+      <form>
+        <div class="col-sm-6 col-12 mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre(s)</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="col-sm-3 col-12 mb-3">
+          <label for="exampleInputPassword1" class="form-label">Apellido paterno</label>
+          <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="col-sm-3 col-12 mb-3">
+          <label for="exampleInputEmail1" class="form-label">Apellido materno</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="col-md-6 col-12 mb-3">
+          <label for="exampleInputEmail1" class="form-label">Seleccionar tu carrera</label>
+          <select class="form-select" id="exampleInputEmail1">
+            <option value="">Seleciona una opcion</option>
+            <option value="">Ing. Ambiental</option>
+            <option value="">Ing. S. Automotrices</option>
+            <option value="">Ing. S. Computacionales</option>
+            <option value="">Ing. Industrial</option>
+            <option value="">Ing. Electronica</option>
+            <option value="">Ing. Gestion Empresarial</option>
+            <option value="">Ing. Informatica</option>
+            <option value="">Lic. Gastronomia</option>
+          </select>
+        </div>
+        <div class="col-md-3 col-12 mb-3">
+          <label for="exampleInputEmail1" class="form-label">Semestre</label>
+          <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="col-md-3 col-12 mb-3">
+          <label for="exampleInputEmail1" class="form-label">Fecha de ingreso</label>
+          <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="txtDescripcion" class="form-label">Descripcion</label>
+          <textarea class="form-control" id="txtDescripcion" rows="3"></textarea>
+        </div>
+        <div class="col-md-6 col-12 mb-3">
+          <label for="exampleInputPassword1" class="form-label">Domicilio</label>
+          <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="col-md-2 col-4 mb-3">
+          <label for="exampleInputEmail1" class="form-label">Codigo Postal</label>
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">CP:</span>
+            <input type="number" class="form-control" id="exampleInputEmail1"  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <div class="col-md-4 col-8 mb-3">
+          <label for="exampleInputPassword1" class="form-label">Comprobante de domicilio</label>
+          <input type="file" class="form-control" id="exampleInputPassword1">
+        </div>
+      </form>
+    </form>
+  </div>
+  <!-- Fin de contenido - Formulario -->
+
+  <!--Footer-->
+  <footer></footer>
+  <!--Fin del footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="js/tinymce/tinymce.min.js"></script>
+  <script>
+    tinymce.init({
+      selector: 'textarea#txtDescripcion',
+      plugins: 'print preview importcss searchreplace autolink autosave save directionality visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap quickbars emoticons',
+    });
+  </script>
+</body>
+</html>
