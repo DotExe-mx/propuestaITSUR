@@ -160,7 +160,8 @@ td>hr:hover {
     border-radius: 20px!important;
 }
 
-.capaMostrar {
+.capaMostrar,
+.capaMostrar3 {
     background-color: #527593;
     background-image: url(../imgs/capaMostrar.png);
     background-size: contain;
@@ -169,13 +170,15 @@ td>hr:hover {
     width: 1100px;
     height: 295px;
     position: absolute;
-    transition: opacity 2s;
+    /* transition: opacity 2s;
+    opacity: 1; */
     opacity: 1;
 }
 
-.capaMostrar:hover {
+
+/* .capaMostrar:hover {
     opacity: 0;
-}
+} */
 
 .capaMostrar2 {
     background-color: #527593;
@@ -186,12 +189,8 @@ td>hr:hover {
     width: 1100px;
     height: 295px;
     position: absolute;
-    transition: opacity 2s;
+    /* transition: opacity 2s; */
     opacity: 1;
-}
-
-.capaMostrar2:hover {
-    opacity: 0;
 }
 
 @media (max-width: 1199.98px) {
@@ -205,7 +204,7 @@ td>hr:hover {
 @media (max-width: 991.98px) {
     .capaMostrar {
         width: 684px;
-        height: 374px;
+        height: 392px;
     }
     .capaMostrar2 {
         width: 684px;
