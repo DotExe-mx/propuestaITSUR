@@ -1,138 +1,236 @@
+.Fondo-patron {
+    background-color: white;
+    background-image: url(../imgs/Patron\ logo\ halcones-opacidad\ 5%.png);
+}
 
-        .Fondo-patron{
-          background-color: white;
-          background-image: url(../imgs/Patron\ logo\ halcones-opacidad\ 5%.png);
-        }
+body>nav {
+    background-color: #0d4598!important;
+}
 
-        body > nav{
-            background-color: #0d4598!important;
-        }
-        .bg-logo{
-          background-color: #0f213c!important;
-        }
+.bg-logo {
+    background-color: #0f213c!important;
+}
 
-        #imgLogoITSUR{
-            height: 40px;
-        }
+#imgLogoITSUR {
+    height: 40px;
+}
 
-        header {
-          height: 120px;
-          background-color: white;
-            background-image: url(../imgs/encabezado.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-        }
-        #colRomanos>ol>li{
-          padding:  5px 0;
-        }
+header {
+    height: 120px;
+    background-color: white;
+    background-image: url(../imgs/encabezado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 
-        .dropdown-item:hover{
-          background-color: rgb(170, 162, 162);
-        }
+#colRomanos>ol>li {
+    padding: 5px 0;
+}
 
-        footer{
-            height: 120px;
-            background-color: white;
-            background-image: url(../imgs/footer.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-        }
-        tr>th{
-            background-color: #0d4598;
-            border-radius:5px;
-            height: 60px;
-            color: rgb(255, 255, 225);
-            padding: 0 15px!important;
-        }
-        table{
-            border-collapse: separate;
-        }
-        .card-text{
-          font-size: medium;
-        }
-        .card{
-          margin-right: 0.5rem;
-        }
+.dropdown-item:hover {
+    background-color: rgb(170, 162, 162);
+}
 
-        /*Estilo para el encabezado de la tabla**/
-        tr>td{
-            border: 1px solid  rgb(156, 152, 152);
-            width: 11%;
-            height: 90px!important;
-            border-radius:5px;
-            box-shadow: 6px 9px 7px 1px #c9c9ca;
-        }
-        h5{
-          text-align: center;
-        }
-        td>a{
-            text-decoration: none;
-            color :black!important;
-            font-weight: 500;
-        }
-        .card-group{
-          margin-bottom: 2rem;
-        }
+footer {
+    height: 120px;
+    background-color: white;
+    background-image: url(../imgs/footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 
-        td>hr{
-            border: 3px solid #4d648d; 
-            bottom: 0;
-            width: 100%;
-            height: 40px;
-        }
-        .navbar .navbar-brand {
-        margin-right: 5.5rem;
-         margin-left: 1rem;
-        } 
-        #tbody>tr>td:hover{
-          background-color: #4c94b8;
-        }
-        #reticula{
-          width: 100%;
-          margin: 0 auto;
-          overflow-y: scroll;
-        }
+tr>th {
+    background-color: #0d4598;
+    border-radius: 5px;
+    height: 60px;
+    color: rgb(255, 255, 225);
+    padding: 0 15px!important;
+}
 
-        td>hr{
-            border: 3px solid #83a8e8; 
-            bottom: 0;
-            width: 100%;
-            height: 40px;
-        }
-        #tbody>tr > td{
-          border-bottom: 15px solid;
-          border-color: rgb(42, 42, 77);
-        }
-        .estilo-letras{
-          text-decoration: none;
-            color :black!important;
-            font-weight: 500;
-        }
-        td>hr:hover{
-            border: 3px solid #0d4598!important; 
-        }
-        #imgPPI{
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 90%;
-            height: 100%;
-        }
-        .bg-row-2{
-            background-color: #527593!important;
-        }
-        .bg-row-3{
-            background-color: #40454A!important;
-        }
-        #verFotos{
-            text-decoration: none;
-            color: #000;
-        }#verFotos:hover{
-            text-decoration: none;
-            color: whitesmoke;
-            background-color: #0d4598;
-        }
-        .rounded-3{
-            border-radius: 20px!important;
-        }
+table {
+    border-collapse: separate;
+}
+
+.card-text {
+    font-size: medium;
+}
+
+.card {
+    margin-right: 0.5rem;
+}
+
+
+/*Estilo para el encabezado de la tabla**/
+
+tr>td {
+    border: 1px solid rgb(156, 152, 152);
+    width: 11%;
+    height: 90px!important;
+    border-radius: 5px;
+    box-shadow: 6px 9px 7px 1px #c9c9ca;
+}
+
+h5 {
+    text-align: center;
+}
+
+td>a {
+    text-decoration: none;
+    color: black!important;
+    font-weight: 500;
+}
+
+.card-group {
+    margin-bottom: 2rem;
+}
+
+td>hr {
+    border: 3px solid #4d648d;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.navbar .navbar-brand {
+    margin-right: 5.5rem;
+    margin-left: 1rem;
+}
+
+#tbody>tr>td:hover {
+    background-color: #4c94b8;
+}
+
+#reticula {
+    width: 100%;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+td>hr {
+    border: 3px solid #83a8e8;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+#tbody>tr>td {
+    border-bottom: 15px solid;
+    border-color: rgb(42, 42, 77);
+}
+
+.estilo-letras {
+    text-decoration: none;
+    color: black!important;
+    font-weight: 500;
+}
+
+td>hr:hover {
+    border: 3px solid #0d4598!important;
+}
+
+#imgPPI {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 100%;
+}
+
+.bg-row-2 {
+    background-color: #527593!important;
+}
+
+.bg-row-3 {
+    background-color: #40454A!important;
+}
+
+#verFotos {
+    text-decoration: none;
+    color: #000;
+}
+
+#verFotos:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #0d4598;
+}
+
+.rounded-3 {
+    border-radius: 20px!important;
+}
+
+.capaMostrar {
+    background-color: #527593;
+    background-image: url(../imgs/capaMostrar.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 295px;
+    position: absolute;
+    transition: opacity 2s;
+    opacity: 1;
+}
+
+.capaMostrar:hover {
+    opacity: 0;
+}
+
+.capaMostrar2 {
+    background-color: #527593;
+    background-image: url(../imgs/capaMostrar.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 295px;
+    position: absolute;
+    transition: opacity 2s;
+    opacity: 1;
+}
+
+.capaMostrar2:hover {
+    opacity: 0;
+}
+
+@media (max-width: 1199.98px) {
+    .capaMostrar,
+    .capaMostrar2 {
+        width: 926px;
+        height: 284px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .capaMostrar {
+        width: 684px;
+        height: 374px;
+    }
+    .capaMostrar2 {
+        width: 684px;
+        height: 320px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .capaMostrar {
+        width: 688px;
+        height: 688px;
+    }
+    .capaMostrar2 {
+        width: 686px;
+        height: 667px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .capaMostrar {
+        width: 510px;
+        height: 652px;
+    }
+    .capaMostrar2 {
+        width: 510px;
+        height: 590px;
+    }
+}
