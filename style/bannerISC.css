@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 42.1vh;
+    background-color: rgb(80, 80, 80);
+    overflow: hidden;
+    position: relative;
+}
+
+#logo1,
+#logo2 {
+    width: 8vw;
+    height: 8vw;
+    background-image: url(../imgs/SC.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+#logo1 {
+    margin-left: 1vw;
+    margin-top: 11vh;
+}
+
+#logo1, #logo2{
+    transform: rotateY(-90deg);
+}
+
+#logo2 {
+    margin-left: 90vw;
+    margin-top: 14vh;
+    transform: rotateY(-90deg);
+}
+
+#barra1,
+#barra2 {
+    width: 82vw;
+    height: 7vw;
+    background-color: #0d4598;
+    position: absolute;
+    transform: rotate(155deg) skew(25deg, 25deg);
+    border: 3px solid black;
+}
+
+
+#barra1 {
+    margin-left: 105vw;/*18*/
+    margin-top: -3vh;
+}
+
+#barra2 {
+    margin-left: -90vw;
+    ;
+    margin-top: 32vh;
+}
+
+.titulo {
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: flex;
+}
+
+#tituloBanner {
+    margin: 17vh auto;
+    font-size: 2.5rem;
+    transform: scale(0);
+}
+
+.iconosSuperior>div,
+.iconosInferior>div {
+    width: 4.5vw;
+    height: 4.5vw;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transform: scale(0);
+}
+
+
+.js h4 {
+    background-color: yellow !important;
+    border-radius: 50%;
+    height: 85%;
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+.php h4 {
+    background-color: #787CB5 !important;
+    color: black !important;
+    font-size: 2rem !important;
+    font-style: oblique;
+    border-radius: 50%;
+    height: 90%;
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 6%;
+    padding-top: 18%;
+}
+
+.CSharp h4 {
+    background-color: #64137b !important;
+    color: white !important;
+    font-size: 2rem !important;
+    border-radius: 50%;
+    height: 90%;
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 6%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#logo {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.html #logo {
+    background-image: url(../imgs/tecnologias/HTML.png);
+}
+
+.js h4,
+.php h4,
+.CSharp h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.js h4 {
+    font-size: 3rem;
+}
+
+.CSharp #logo {
+    background-image: url(../imgs/tecnologias/C#.jpg);
+}
+
+.css #logo {
+    background-image: url(../imgs/tecnologias/CSS3.png);
+}
+
+.DB #logo {
+    background-image: url(../imgs/tecnologias/BD.png);
+}
+
+.cisco #logo {
+    background-image: url(../imgs/tecnologias/cisco.png);
+    border-radius: 50%;
+}
+
+.java #logo {
+    background-image: url(../imgs/tecnologias/java.png);
+}
+
+.IoT #logo {
+    background-image: url(../imgs/tecnologias/IoT.jpg);
+    border-radius: 50%;
+}
+
+.android #logo {
+    background-image: url(../imgs/tecnologias/android.png);
+}
+
+.iconosSuperior>div {
+    margin-top: 5vh;
+}
+
+.iconosInferior>div {
+    margin-top: 30vh;
+}
+
+.html {
+    margin-left: 25vw;
+}
+
+.js {
+    margin-left: 40vw;
+}
+
+.php {
+    margin-left: 55vw;
+}
+
+.CSharp {
+    margin-left: 70vw;
+}
+
+.css {
+    margin-left: 85vw;
+}
+
+.DB {
+    margin-left: 10vw;
+}
+
+.cisco {
+    margin-left: 25vw;
+}
+
+.java {
+    margin-left: 40vw;
+}
+
+.IoT {
+    margin-left: 55vw;
+}
+
+.android {
+    margin-left: 70vw;
+}
+
+/*************************************** Media queries ***************************************/
+
+/*Media queries pantallas md*/
+@media (max-width: 769px) {
+    .banner {
+        height: 25vh;
+    }
+
+    #logo1 {
+        margin-left: 2vw;
+        margin-top: 4vh;
+    }
+
+    #barra1,
+    #barra2 {
+        height: 10vw;
+    }
+
+    #barra1 {
+        margin-top: -1vh;
+    }
+
+    #barra2 {
+        margin-top: 19vh;
+    }
+
+    .iconosSuperior>div,
+    .iconosInferior>div {
+        margin-top: 2.5vh;
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .titulo {
+        font-size: 1rem;
+        margin-top: -7vh;
+    }
+
+    .iconosInferior>div {
+        margin-top: 17vh;
+    }
+}
+
+
+/*Media queries para telefonos*/
+@media (max-width: 411px) {
+    .banner {
+        height: 24vh;
+    }
+
+    #tituloBanner {
+        font-size: 1.3rem !important;
+    }
+
+    .js h4 {
+        padding-top: 2px;
+        font-size: 1rem;
+    }
+
+    .php h4 {
+        font-size: 0.8em !important;
+    }
+
+    .CSharp h4 {
+        font-size: 1.2em !important;
+    }
+}
